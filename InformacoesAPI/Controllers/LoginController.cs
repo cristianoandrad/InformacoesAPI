@@ -7,9 +7,7 @@ using System.Threading.Tasks;
 
 namespace InformacoesAPI.Controllers
 {
-    /// <summary>
-    /// Informe usuario e senha.
-    /// </summary>
+    
     [Route("api/[controller]")]
     [ApiController]
     public class LoginController : ControllerBase
