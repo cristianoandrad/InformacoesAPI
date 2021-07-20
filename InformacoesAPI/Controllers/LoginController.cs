@@ -17,14 +17,7 @@ namespace InformacoesAPI.Controllers
         private string usuario = "admin";
         private string senha = "admin";
         private string info;
-
-       
-        /// <summary>
-        /// Informe usuario e senha.
-        /// </summary>
-        /// <param name="usuario"></param>
-        /// <param name="senha"></param>
-        /// <returns></returns>
+             
         [HttpPost]
 
         public ActionResult Post(string usuario, string senha)

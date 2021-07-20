@@ -17,12 +17,7 @@ namespace InformacoesAPI.Controllers
         public string hora = DateTime.Now.ToString("t");
         public List<string> info = new List<string>();
         
-                   
-
-        /// <summary>
-        /// Informa data e hora.
-        /// </summary>
-        /// <returns></returns>
+       
         [HttpGet]
 
         public ActionResult Get()
