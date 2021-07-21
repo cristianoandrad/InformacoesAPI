@@ -7,13 +7,13 @@ Curso Indra .NET
 
 * Clicar duas vezes em cima do projeto e adicionar codigo abaixo:
 
-    
+```html
     <PropertyGroup>
 		<GenerateDocumentationFile>true</GenerateDocumentationFile>
 		<NoWarn>$(NoWarm);1591</NoWarn>
 	</PropertyGroup>
-    
-	
+```
+
 * Em startup.cs, no método ConfigureServices, corrigir o o codigo abaixo:
     
             services.AddSwaggerGen(c =>
