@@ -18,6 +18,10 @@ namespace InformacoesAPI.Controllers
         public List<string> info = new List<string>();
         
        
+        /// <summary>
+        /// Retorna Data e Hora.
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
 
         public ActionResult Get()

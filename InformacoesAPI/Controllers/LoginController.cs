@@ -16,11 +16,18 @@ namespace InformacoesAPI.Controllers
         private string senha = "admin";
         private string info;
              
+                
+        /// <summary>
+        /// Informe Usuario "admin" e Senha "admin" 
+        /// </summary>
+        /// <param name="usuario"></param>
+        /// <param name="senha"></param>
+        /// <returns></returns>
         [HttpPost]
 
         public ActionResult Post(string usuario, string senha)
         {
-            info = (usuario == "admin" && senha == "admin" ? "Seja bem vindo!": "Usuario e senha inválidos.");
+            info = (usuario == "admin" && senha == "admin" ? "Seja bem vindo!" : "Usuario e senha inválidos.");           
             return Ok(info);
         }
 
